@@ -45,3 +45,7 @@
     background-color: #1abc9c; /* Green */
     color: #ffffff;
   }
+/* scrollspy */
+  body {
+    position: relative;
+  }

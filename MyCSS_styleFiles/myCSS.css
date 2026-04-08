@@ -9,4 +9,8 @@
   .bg-3 { 
     background-color: #cb1111; /* red */
     color: #555555;
+  }  
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }

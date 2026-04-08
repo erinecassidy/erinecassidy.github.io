@@ -1,5 +1,5 @@
  /* Layout and Colors */
-  .bg-1 {
+  /* .bg-1 {
       background-color: #108f91;
       color: #ffffff;
   }
@@ -17,7 +17,14 @@
   .container-fluid {
       padding-top: 80px;
       padding-bottom: 80px;
-  }
+  } */
+   
+ body {
+      position: relative;
+    }
+    #WHO {padding-top:80px;padding-bottom:80px; color: #ffff; background-color: #108f91;}
+    #WHAT {padding-top:80px;padding-bottom:80px; color: #ffff; background-color: #4f8cc4;}
+    #WHERE {padding-top:80px;padding-bottom:80px; Color: #ffff; background-color: #637071;}
 
   /* Navigation Bar */
   .navbar {
@@ -33,7 +40,7 @@
   .navbar-nav li a:hover {
       color: #1abc9c !important;
   }
-  
+
   /* Font */
    body {
     font: 20px Montserrat, sans-serif;

@@ -12,12 +12,17 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- Scripts -->
     <script src="JS_CSS_downloaded_libraries/JSDownloaded.js"></script>
+    <style>
+       body {
+    position: relative;
+  }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-default">
-  <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -28,21 +33,21 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#WHO">WHO</a></li>
+        <li><a href="#WHAT">WHAT</a></li>
+        <li><a href="#WHERE">WHERE</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-    <div class="container-fluid bg-1 text-center">
+    <div id="WHO" class="container-fluid bg-1 text-center">
         <h3>Who Am I?</h3>
         <img src="images/dog.jpg" class="img-responsive img-circle" style="display:inline" alt="dog" width="350" height="350">
         <h3>I'm an adventurer</h3>
     </div>
 
-    <div class="container-fluid bg-2 text-center">
+    <div id="WHAT" class="container-fluid bg-2 text-center">
         <h3>What Am I?</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -52,7 +57,7 @@
             </a>
     </div>
 
-    <div class="container-fluid bg-3 text-center">    
+    <div id="WHERE" class="container-fluid bg-3 text-center">    
   <h3>Where To Find Me?</h3><br>
   <div class="row">
     <div class="col-sm-4">

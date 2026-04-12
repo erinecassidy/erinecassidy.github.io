@@ -19,7 +19,7 @@
   }
 
   .navbar-nav li a:hover {
-      color: #1abc9c !important;
+      color: #108f91;
   }
 
   /* Font */
@@ -31,6 +31,6 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    background-color: #1abc9c; /* Green */
+    background-color: #108f91;
     color: #ffffff;
   }
